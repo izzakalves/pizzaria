@@ -1,0 +1,137 @@
+<header>
+  <img src="pizza.png" alt="Logomarca da Pizzaria" class="logo">
+  <h1>Fatia d'ouro 🍕</h1>
+  <p>As melhores pizzas da cidade!</p>
+</header>
+
+<nav>
+  <a href="cardapio.html">Cardápio</a>
+  <a href="rodizios.html">Rodízios</a>
+  <a href="eventos.html">Locação para Eventos</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio - Bella Massa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url(Copilot_20251105_090828.png) no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 20px;
+          h1 {
+  color: white;
+}
+    }
+
+    h1 {
+      text-align: center;
+      color: #8b4513;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .pizza {
+      background-color: #fcbf49;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .pizza img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .pizza h3 {
+      margin-top: 10px;
+      color: #5c3317;
+    }
+
+    .pizza p {
+      margin: 5px 0;
+    }
+
+    header {
+  background-color: rgba(101, 67, 33, 0.9);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 150px;
+}
+
+nav {
+  background-color: rgba(247, 127, 0, 0.9);
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+  </style>
+</head>
+
+  <header>
+    <div style="text-align: center; margin-top: 30px;">
+  <button onclick="history.back()" style="padding: 10px 20px; font-size: 16px; background-color: #8b4513; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    ⬅️ Voltar
+  </button>
+</div>
+<body>
+
+  <h1>Nosso Cardápio 🍕</h1>
+
+  <div class="menu">
+    <div class="pizza">
+      <img src="marguerita.png" alt="Pizza Margherita">
+      <h3>Margherita</h3>
+      <p>Molho de tomate, mussarela, manjericão</p>
+      <p><strong>R$ 35,00</strong></p>
+    </div>
+    <div class="pizza">
+      <img src="calabresa.png" alt="Pizza Calabresa">
+      <h3>Calabresa</h3>
+      <p>Molho de tomate, calabresa, cebola</p>
+      <p><strong>R$ 38,00</strong></p>
+    </div>
+    <div class="pizza">
+      <img src="4 queijos.png"Pizza Quatro Queijos">
+      <h3>Quatro Queijos</h3>
+      <p>Mussarela, provolone, gorgonzola, parmesão</p>
+      <p><strong>R$ 42,00</strong></p>
+    </div>
+    <div class="pizza">
+      <img src="PORTUGUESA.png" alt="Pizza Portuguesa">
+      <h3>Portuguesa</h3>
+      <p>Presunto, ovos, cebola, azeitonas</p>
+      <p><strong>R$ 40,00</strong></p>
+    </div>
+  </div>
+
+</body>
+</html>
